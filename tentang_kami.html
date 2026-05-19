@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Meri Songket - Tentang Kami</title>
+  <meta name="description" content="Pandai Sikek Heritage - Mengenal sejarah jejak emas di kaki Gunung Singgalang dan para maestro penenun kami."/>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+  <!-- Material Symbols -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <!-- Custom CSS (Gunakan stylesheet bawaan index.html) -->
+  <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ===== TOP APP BAR (Sesuai dengan index.html) ===== -->
+  <header class="ps-navbar sticky-top">
+    <div class="container-xl">
+      <nav class="navbar navbar-expand-md px-0">
+        <!-- Hamburger + Nav Links -->
+        <div class="d-flex align-items-center gap-4">
+          <button class="btn btn-icon d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-label="Buka menu">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+          <ul class="navbar-nav flex-row gap-4 d-none d-md-flex">
+            <li class="nav-item">
+              <a class="nav-link ps-nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-nav-active" href="tentang_kami.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-nav-link" href="kontak.html">Kontak</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Brand -->
+        <!-- Brand (Teks diganti menjadi Logo Gambar) -->
+        <a class="navbar-brand ps-brand mx-auto d-flex align-items-center py-2" href="/">
+        <img class="ps-logo-img" src="img/meri2.png" alt="Pandai Sikek Heritage"/>
+        </a>
+
+        <!-- Action Icons -->
+        <div class="d-flex align-items-center gap-3">
+          <button type="button" class="btn btn-icon" aria-label="Cari produk">
+            <span class="material-symbols-outlined">search</span>
+          </button>
+          <button type="button" class="btn btn-icon" aria-label="Keranjang belanja">
+            <span class="material-symbols-outlined">shopping_bag</span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Offcanvas Mobile Menu -->
+  <div class="offcanvas offcanvas-start" id="mobileMenu" tabindex="-1">
+    <div class="offcanvas-header">
+    <!-- Brand pada Mobile Menu -->
+    <h5 class="offcanvas-title ps-brand">
+      <img src="img/meri2.png" alt="Pandai Sikek Heritage" style="height: 32px; width: auto; object-fit: contain;"/>
+    </h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Tutup"></button>
+  </div>
+    <div class="offcanvas-body">
+      <ul class="nav flex-column gap-3">
+        <li><a class="nav-link ps-nav-link" href="index.html">Beranda</a></li>
+        <li><a class="nav-link ps-nav-active" href="tentang_kami.html">Tentang Kami</a></li>
+        <li><a class="nav-link ps-nav-link" href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="ps-hero d-flex align-items-center justify-content-center">
+      <div class="ps-hero__bg">
+        <img src="img/foto3.png" alt="About Meri Songket"/>
+        <div class="ps-hero__overlay"></div>
+      </div>
+      <div class="ps-hero__content text-center px-3">
+        <h1 class="ps-display text-white">Tentang Meri Songket</h1>
+      </div>
+    </section>
+
+    <!-- ===== HISTORY EDITORIAL SECTION ===== -->
+    <section class="ps-section">
+      <div class="container-xl">
+        <div class="row g-5 align-items-center">
+          <!-- Text Content -->
+          <div class="col-12 col-md-6 pe-md-5">
+            <span class="ps-label-caps text-secondary-gold d-block mb-3">WARISAN BUDAYA</span>
+            <h2 class="ps-headline mb-4">Jejak Emas di Kaki Gunung Singgalang</h2>
+            <div class="ps-body-lg text-muted">
+              <p class="mb-4">Terletak di lereng Gunung Singgalang yang megah, Nagari Pandai Sikek telah menjadi pusat kerajinan tenun songket Minangkabau selama berabad-abad. Tradisi ini bukan sekadar teknik menyilangkan benang, melainkan sebuah narasi visual yang mencatat sejarah, filosofi, dan identitas masyarakat Sumatera Barat.</p>
+              <p class="mb-0">Setiap helaian benang emas yang ditenun dengan presisi mencerminkan ketekunan dan kemuliaan. Motif-motif klasik seperti Pucuak Rabuang dan Saik Kalamai bukan hanya hiasan, tetapi doa dan harapan yang diwariskan dari satu generasi ke generasi berikutnya melalui jemari para maestro.</p>
+            </div>
+          </div>
+          <!-- Image Content -->
+          <div class="col-12 col-md-6">
+            <div class="ps-img-zoom border border-secondary border-opacity-10 rounded-1">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPvIkcKbbupMAzPW_I4a-7dPQ2wpcpTVHeQIt9j2zr-ACRuPK78IgkwFPRg1yHGynZ_IpsJ4kgApPuNbCWc8zbxe9lli5znIky6PyEvU9yDdq0BTgjdoFOYZSTovwpAwECU7foLqXInvj52KQj2Kl7xvvVmaEy53v9VJQV65Xwf5Lnp9cuSuTFtnbU4kzWPsUYOXUvr7muwEir2aO18wDrrR3zX7z5Hh4A9oMeL8qOlPbCq7BZ1HPi8l7kky2jmhQrUtDw_viSoUg" alt="Golden Songket Detail"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== THE WEAVERS SECTION ===== -->
+    <section class="ps-section bg-light-surface">
+      <div class="container-xl">
+        <div class="text-center mb-5">
+          <span class="ps-label-caps text-secondary-gold">MAESTRO KAMI</span>
+          <h2 class="ps-headline mt-3 mb-0">Para Penenun</h2>
+        </div>
+
+        <div class="row g-4">
+          <!-- Weaver 1 -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 bg-white border border-secondary border-opacity-10 p-4 rounded-0 ps-card">
+              <div class="ps-card__img mb-4" style="aspect-ratio: 3/4;">
+                <img class="img-fluid filter-grayscale transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCECHdKE9VWgbKUcx1cGyOalrszJaJ184yMZXbkBVn5VqQIMqDVsLw44XZ0jaYiYLzHUq-ylrhDPqa4Syx8upWlRCInrfBsxtzbokIdco0V8CDeCG0CRE6ZwElh2V_CBSgRB6YQ2vHnw_11nZxSKYpAHrwYZXL4ndWcG742W6ut5QDbRGxayZFFU8vOMfkJHeHwkInWqfaQ1h2seml-Hu2RIU2hcJNNl-HQH9EyoqzLscbWIrmhTFcRwKCaxkUSfIBEiIp3eDXJjgU" alt="Nurhayati"/>
+              </div>
+              <h3 class="ps-card__title mb-1 fs-4">Nurhayati</h3>
+              <p class="ps-label-caps text-secondary-gold mb-3 small">42 TAHUN PENGALAMAN</p>
+              <p class="text-muted small mb-0">Spesialisasi: Motif Kuno & Pewarnaan Alami</p>
+            </div>
+          </div>
+          <!-- Weaver 2 -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 bg-white border border-secondary border-opacity-10 p-4 rounded-0 ps-card">
+              <div class="ps-card__img mb-4" style="aspect-ratio: 3/4;">
+                <img class="img-fluid filter-grayscale transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAG1lMWeqA5sjwY8zQygiuPbuTuwOMZqwhor5CW7QJ99QBNbXGNhoiPsWyURkY2D3PgaHria0ru_FFLkRCZ01wkiB-pT6WwXWZkhJU9LrhsiI0toqSQQDv92uOhlWp0AzGX53qJ1MX0g8X0YgMRMmaw-eB62gMJAnJ2njZeXk3HQ8IquigPuT23jy5uHT-eWYV1jvDdAVeSn30ROkKIS_ZE5njQ06S5vckyTxhDMCu47oiW91VsC6M3qID6ogDch0tHrtkv815gyVg" alt="Fatimah"/>
+              </div>
+              <h3 class="ps-card__title mb-1 fs-4">Fatimah</h3>
+              <p class="ps-label-caps text-secondary-gold mb-3 small">35 TAHUN PENGALAMAN</p>
+              <p class="text-muted small mb-0">Spesialisasi: Teknik Menghani & Struktur Benang</p>
+            </div>
+          </div>
+          <!-- Weaver 3 -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 bg-white border border-secondary border-opacity-10 p-4 rounded-0 ps-card">
+              <div class="ps-card__img mb-4" style="aspect-ratio: 3/4;">
+                <img class="img-fluid filter-grayscale transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKjAm065OGy5W58RQcWC5lRHx4hYMyJ_8Le64jVsycUUdRJ1GfxY5wRxBDHlpHjSmt-qHdqYX3KXL4jkqfMSVwbzDSnfqPk7LBIjvh834uyNJamjfGGtfvYbvYJIRtBjksjN8W2d9ZbN_Dvq6PDn4iiY3Q8acmXlsAsH3pmyUiwK87DKQ2sJfWy3nGQ2urAsPvMaGyyfN9hUN7jV-xgrGkbIAvpCquPDdQa87SU4Vxa2Z70Y1owCvCVL4OC0nNY9n8_AGHU9S-OJA" alt="Siti Aminah"/>
+              </div>
+              <h3 class="ps-card__title mb-1 fs-4">Siti Aminah</h3>
+              <p class="ps-label-caps text-secondary-gold mb-3 small">28 TAHUN PENGALAMAN</p>
+              <p class="text-muted small mb-0">Spesialisasi: Desain Motif Geometris Kontemporer</p>
+            </div>
+          </div>
+          <!-- Weaver 4 -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card h-100 bg-white border border-secondary border-opacity-10 p-4 rounded-0 ps-card">
+              <div class="ps-card__img mb-4" style="aspect-ratio: 3/4;">
+                <img class="img-fluid filter-grayscale transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGIHvpDPULqiYao4LFI61kEzULJUZHZhLTO-f9pDv9SPjpEWcwDvMxIhox1vk7_JqG8SvpgUf6G81oSTv50QbM90ZYfKYKu0172uQ8RRgmBaeQY8y9YbJ7WIK8u6UTwHgnx1SKX6yx7ixaxXMJ9hOQjjvpt_jd1bctyo9bq5pXt7RveEkz6uoeeXkrZL4TLXsxV8Oaf4UddvyFc6CGJ4K7oan9bZp4_8zqznUJ534By3jrtjsqjlyze5Y4dy-pVlf3kA4Exo9I7WA" alt="Rosna"/>
+              </div>
+              <h3 class="ps-card__title mb-1 fs-4">Rosna</h3>
+              <p class="ps-label-caps text-secondary-gold mb-3 small">20 TAHUN PENGALAMAN</p>
+              <p class="text-muted small mb-0">Spesialisasi: Penyelesaian Akhir & Kontrol Kualitas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CRAFTING PROCESS SECTION ===== -->
+    <section class="ps-section">
+      <div class="container-xl">
+        <div class="mb-5">
+          <span class="ps-label-caps text-secondary-gold">RITUAL KARYA</span>
+          <h2 class="ps-headline mt-3 mb-0">Proses Pembuatan</h2>
+        </div>
+
+        <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-5">
+          <!-- Step 1 -->
+          <div class="col ps-step">
+            <div class="ps-card__img mb-3 border border-secondary border-opacity-10 rounded-1" style="aspect-ratio: 1/1;">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBa0Sy8pT6LI2C7l0nbcNP2EAI-WBvLOUpKIe60_jVyan6q7uQvDo6oUVjd5B4izwl_z-xpC7bz-YkcI8D6lLNWXE558vAJ1Rbg9VOfNlus4WVU_g5_5h2eu8EKNVB5kTuFc9Jk32Gi6vSXoIdB6UQF7Z8EkseHIBDXyuCuE_YeSbeijQnajGDf10w9B37N0ptQPvO5B7eDgrnRAMmTTj2kU5mvFFRPggT4gOZTUfJC43iiCVGMV-Us-WXx06FzoHexdvZTFmHEaxE" alt="Pemilihan Benang"/>
+            </div>
+            <div>
+              <span class="ps-step__number">01</span>
+              <h4 class="ps-label-caps text-primary mt-2">Pemilihan Benang</h4>
+              <p class="text-muted small mt-2">Menyeleksi sutra terbaik dan benang emas berkualitas tinggi sebagai fondasi karya.</p>
+            </div>
+          </div>
+          <!-- Step 2 -->
+          <div class="col ps-step">
+            <div class="ps-card__img mb-3 border border-secondary border-opacity-10 rounded-1" style="aspect-ratio: 1/1;">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIWZOt9gM4VIbU9v1053jhHzqHser-yzhmsdtlv5bD4uI6cgyX06B1SzaE5ADztjkFNe9MDtt2oWs9KA25MZIyGbtmhevOn-pHo-MkNHaZm8Tpexrg7LWQcPHtSgS0M6Q7ZmEI1AI5s11lf2q0wjXi2QErUvfPTU9rK_tydBOO_mZGvcfeoNGac3_uSBCmTk8LQGhFGOIqi481-ce1tXUdkjKNnfWg7lRFzxK6cXyLSscfL35Y9zVGOk7TC1QckiW0ZjGLPG6DVLw" alt="Perencanaan Motif"/>
+            </div>
+            <div>
+              <span class="ps-step__number">02</span>
+              <h4 class="ps-label-caps text-primary mt-2">Perencanaan Motif</h4>
+              <p class="text-muted small mt-2">Menghitung dan memetakan setiap motif klasik ke dalam pola tenunan yang akurat.</p>
+            </div>
+          </div>
+          <!-- Step 3 -->
+          <div class="col ps-step">
+            <div class="ps-card__img mb-3 border border-secondary border-opacity-10 rounded-1" style="aspect-ratio: 1/1;">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMw2HWNfdwHwYlGUujcNa22G1bDggRwYxmkhOvOB6J1gDryosgrWZMv2upR_hn2G7EV8cmRLIPoUkmD-0GtUqA0J-v3myni96GMh2sGE1xUbbbdUTjyQ7c0ayM8PkJyCYm82270typZH-vTaTxaqCM3_n9JtdUtlDWvDiAPvt8AzKo17xIdPAia8LnPlSiD14VvV2XsE-gyYGp_76TNuNiL3IJWjgWHQBFeBf59Gvz8yKWfNuPOLs3bY05tD4HIm8EeRlhoGl-WGs" alt="Menghani"/>
+            </div>
+            <div>
+              <span class="ps-step__number">03</span>
+              <h4 class="ps-label-caps text-primary mt-2">Menghani</h4>
+              <p class="text-muted small mt-2">Menyiapkan benang lungsin pada alat tenun untuk menentukan lebar dan panjang kain.</p>
+            </div>
+          </div>
+          <!-- Step 4 -->
+          <div class="col ps-step">
+            <div class="ps-card__img mb-3 border border-secondary border-opacity-10 rounded-1" style="aspect-ratio: 1/1;">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC26dHGJ9HtuzOZjnnBEaCrcQ8SfUn6lJhDQyMfl564JB5m7k5z7-zYxYSeJoY6jEKgUKXPDVoHl5j0NVq5Rp97JC5GWgd3SA6meiWWdDd5VN69hHSmp3xxUB7vUlP2UP6buEshZ-vQuAlsi-MScKMQado2a7u4_ueLf56UFwkIFy4lUZSrfOckIXYOm0vKWhvefdpgiRViknz9YPKVRPgAhfieKYyVpyF_kF__u1KTotkr74FM_BWjRC66s600QwiDVg5fmggM3Jg" alt="Penatapan (Tenun)"/>
+            </div>
+            <div>
+              <span class="ps-step__number">04</span>
+              <h4 class="ps-label-caps text-primary mt-2">Penatapan</h4>
+              <p class="text-muted small mt-2">Proses inti menenun dengan tangan, menyatukan benang pakan dan lungsin selama berbulan-bulan.</p>
+            </div>
+          </div>
+          <!-- Step 5 -->
+          <div class="col ps-step">
+            <div class="ps-card__img mb-3 border border-secondary border-opacity-10 rounded-1" style="aspect-ratio: 1/1;">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpdl6CqfD_eG8s3ioWx6GPX1LmQJRQqydKtP9acUdP1to6HpbWEf8aWmBhFyLNmrVV73MVw3nQvRxH08AkV1eIpse5CiCyGa5pula2I7CapxBNLgppNcIPRTS-CPzlfP0nGoa0McQxU_RAlEmMrQSHwMZZQhE_GV1FqTwPSWgAVFJiYhyiFZfyPzDIiadZZ1fR6IqwLiVGBIZFvTOuxMu9nTt2zkCMkjsXkdseK2eJRfTnZxFglbw5z3xR5qnBeRbTLVJWe1Kvatc" alt="Penyelesaian Akhir"/>
+            </div>
+            <div>
+              <span class="ps-step__number">05</span>
+              <h4 class="ps-label-caps text-primary mt-2">Penyelesaian</h4>
+              <p class="text-muted small mt-2">Pemeriksaan kualitas menyeluruh dan perapian setiap detail sebelum menjadi mahakarya.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA SECTION ===== -->
+    <section class="container-xl mb-5 pb-5">
+      <div class="bg-dark text-white py-5 px-4 text-center rounded-1">
+        <h2 class="ps-headline mb-4">Ingin Memiliki Bagian dari Sejarah?</h2>
+        <a href="#" class="ps-btn btn-outline-light border border-white border-opacity-25 px-5 py-3 tracking-widest text-white text-decoration-none bg-transparent hover-bg-gold transition">
+          LIHAT KOLEKSI WARISAN
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="ps-footer">
+    <div class="container-xl py-5">
+      <div class="row g-5">
+        <!-- Brand -->
+        <div class="col-12 col-md-4">
+        <a class="navbar-brand ps-brand mx-auto d-flex align-items-center" href="/">
+        <img src="img/meri2.png" alt="Pandai Sikek Heritage" style="height: 80px; width: auto; object-fit: contain;"/>
+        </a>
+          <p class="text-white-50 small mb-4 lh-lg">
+            Mendedikasikan diri untuk pelestarian seni tenun Songket Minangkabau sejak generasi pertama. Kualitas adalah janji kami.
+          </p>
+          <div class="d-flex gap-3">
+            <a href="#" class="ps-footer-icon"><span class="material-symbols-outlined">public</span></a>
+            <a href="#" class="ps-footer-icon"><span class="material-symbols-outlined">photo_camera</span></a>
+            <a href="#" class="ps-footer-icon"><span class="material-symbols-outlined">share</span></a>
+          </div>
+        </div>
+        <!-- Navigation -->
+        <div class="col-6 col-md-2">
+          <h4 class="ps-label-caps text-secondary-gold mb-4">NAVIGASI</h4>
+          <ul class="list-unstyled ps-footer-links">
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">The Process</a></li>
+            <li><a href="#">Weavers</a></li>
+          </ul>
+        </div>
+        <!-- Support -->
+        <div class="col-6 col-md-2">
+          <h4 class="ps-label-caps text-secondary-gold mb-4">BANTUAN</h4>
+          <ul class="list-unstyled ps-footer-links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Shipping Info</a></li>
+          </ul>
+        </div>
+        <!-- Contact -->
+        <div class="col-12 col-md-4">
+          <h4 class="ps-label-caps text-secondary-gold mb-4">KONTAK</h4>
+          <ul class="list-unstyled ps-footer-contact">
+            <li>
+              <span class="material-symbols-outlined">location_on</span>
+              Meri Songket, Kanang, Koto Tinggi, Nagari Pandai Sikek, Tanah Datar, Sumatera Barat
+            </li>
+            <li>
+              <span class="material-symbols-outlined">mail</span>
+              info@merisongket.com
+            </li>
+            <li>
+              <span class="material-symbols-outlined">WhatsApp / Call</span>
+              +62 823 8336 7739
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="ps-footer__bottom">
+      <div class="container-xl d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <p class="ps-label-caps text-white-50 mb-0">© 2024 MERI SONGKET. CRAFTED WITH TRADITION.</p>
+        <div class="d-flex gap-4">
+          <a class="ps-label-caps text-white-50 text-decoration-none" href="#">ENG</a>
+          <a class="ps-label-caps text-white border-bottom border-white text-decoration-none" href="#">IDN</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

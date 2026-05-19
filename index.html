@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Meri Songket - Dashboard</title>
+  <meta name="description" content="Pandai Sikek Heritage - Songket Minangkabau, koleksi tenun tradisional dari Ranah Minang."/>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+  <!-- Material Symbols -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ===== TOP APP BAR ===== -->
+  <header class="ps-navbar sticky-top">
+    <div class="container-xl">
+      <nav class="navbar navbar-expand-md px-0">
+        <!-- Hamburger + Nav Links -->
+        <div class="d-flex align-items-center gap-4">
+          <button class="btn btn-icon d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-label="Buka menu">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+          <ul class="navbar-nav flex-row gap-4 d-none d-md-flex">
+            <li class="nav-item">
+              <a class="nav-link ps-nav-active" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-nav-link" href="tentang_kami.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-nav-link" href="kontak.html">Kontak</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Brand (Teks diganti menjadi Logo Gambar) -->
+        <a class="navbar-brand ps-brand mx-auto d-flex align-items-center py-2" href="/">
+        <img class="ps-logo-img" src="img/meri2.png" alt="Pandai Sikek Heritage"/>
+        </a>
+
+        <!-- Action Icons -->
+        <div class="d-flex align-items-center gap-3">
+          <button type="button" class="btn btn-icon" aria-label="Cari produk">
+            <span class="material-symbols-outlined">search</span>
+          </button>
+          <button type="button" class="btn btn-icon" aria-label="Keranjang belanja">
+            <span class="material-symbols-outlined">shopping_bag</span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Offcanvas Mobile Menu -->
+  <div class="offcanvas offcanvas-start" id="mobileMenu" tabindex="-1">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title ps-brand">MERI SONGKET</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Tutup"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="nav flex-column gap-3">
+        <li><a class="nav-link ps-nav-active" href="index.html">Beranda</a></li>
+        <li><a class="nav-link ps-nav-link" href="tentang_kami.html">Tentang Kami</a></li>
+        <li><a class="nav-link ps-nav-link" href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="ps-hero d-flex align-items-center justify-content-center">
+      <div class="ps-hero__bg">
+        <img src="img/foto1.png" alt="Hero Image"/>
+        <div class="ps-hero__overlay"></div>
+      </div>
+      <div class="ps-hero__content text-center px-3">
+        <p class="ps-label-caps text-secondary-gold mb-3">Songket Asli Minangkabau</p>
+        <h1 class="ps-display text-white">Warisan Tenun dalam Genggaman</h1>
+        <p class="ps-body-lg text-white-75 mx-auto mt-3 mb-5">
+          Menghidupkan kembali elegansi tekstil tradisional Sumatra melalui ketelitian tangan para pengrajin terbaik di Nagari Pandai Sikek.
+        </p>
+        <a href="#" class="ps-btn ps-btn--dark">JELAJAHI KOLEKSI</a>
+      </div>
+    </section>
+
+    <!-- ===== BRAND STORY SECTION ===== -->
+    <section class="ps-section">
+      <div class="container-xl">
+        <div class="row g-5 align-items-center">
+          <!-- Image -->
+          <div class="col-12 col-md-5">
+            <div class="ps-img-zoom">
+              <img src="img/foto2.png" alt="Pengrajin Songket"/>
+            </div>
+          </div>
+          <!-- Text -->
+          <div class="col-12 col-md-6 offset-md-1">
+            <p class="ps-label-caps text-secondary-gold mb-3">ASAL-USUL</p>
+            <h2 class="ps-headline mb-4">Meri Songket: <br/><em class="fw-normal fst-italic">Seni Menenun Cahaya</em></h2>
+            <p class="ps-body-lg text-muted mb-4">
+              Di kaki Gunung Singgalang, tradisi menenun bukan sekadar pekerjaan—ia adalah bahasa jiwa yang diwariskan dari ibu ke anak perempuan selama berabad-abad. Nagari Pandai Sikek telah lama dikenal sebagai pusat keunggulan songket di Ranah Minang.
+            </p>
+            <p class="ps-body-lg text-muted mb-5">
+              Setiap helai kain Pandai Sikek adalah narasi filosofis. Menggunakan benang emas murni dan sutra pilihan, kami memastikan setiap motif tidak hanya memukau mata, tetapi juga membawa doa dan identitas budaya yang luhur bagi pemakainya.
+            </p>
+            <a href="#" class="ps-link">BACA CERITA KAMI</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED COLLECTION ===== -->
+    <section class="ps-section bg-light-surface">
+      <div class="container-xl">
+        <div class="d-flex justify-content-between align-items-end mb-5">
+          <div>
+            <p class="ps-label-caps text-secondary-gold mb-1">KURASI TERBAIK</p>
+            <h2 class="ps-headline mb-0">Karya Pilihan</h2>
+          </div>
+          <a href="#" class="ps-link d-none d-md-inline">LIHAT SEMUA KOLEKSI →</a>
+        </div>
+
+        <div class="row g-4">
+          <!-- Product Card 1 -->
+          <div class="col-12 col-md-4">
+            <div class="ps-card">
+              <div class="ps-card__img">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtFNiANfh-fMdQbDSLYvsXI5-Dag7QcZwXXN4N3vFTftbZ5fdQepFGMHB9dCpiJtFnPneCkqhH-cqEvC5NRZkdN8HZsFIdeMzxFy-z71VR9d89hzGUrqLj_zo59H8-_ubNJHy445dq9vOjiMkuxhNobtBRyOYvUXzilG_8iFwAPvynWLDY-S1ZDVbD8i2TYvBunXjYNb_oGzgAnClckpDRrk3rnFzQ2bMhXlMhwTTlrhJPvG6JEQbe-9myxk7mX4HL82etbruFqFI" alt="Motif Pucuk Rebung"/>
+              </div>
+              <p class="ps-label-caps text-muted mb-1">KOLEKSI KLASIK</p>
+              <h3 class="ps-card__title">Motif Pucuk Rebung</h3>
+            </div>
+          </div>
+          <!-- Product Card 2 -->
+          <div class="col-12 col-md-4">
+            <div class="ps-card">
+              <div class="ps-card__img">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAow16tK-CzN3irhfinQUjAKEN1FnqStTohODz09ekYCA3z-tZY5NA0FlnSGkH9bUn__0fhaotnDDmFJ0qojCT_97T6B4BpdJpury6BFgZXvhNHF6EIijq35p_ae5jd619aR0cWEWZJE5-zoTJ6pyOb-63CPFHW3a_f54gB1xut6SwnAZEAU3TX5SCaXk2IMo8Sit7uPrFXo40le97BFWqwRg0" alt="Motif Tanjak Lawang"/>
+              </div>
+              <p class="ps-label-caps text-muted mb-1">KOLEKSI BANGSAWAN</p>
+              <h3 class="ps-card__title">Motif Tanjak Lawang</h3>
+            </div>
+          </div>
+          <!-- Product Card 3 -->
+          <div class="col-12 col-md-4">
+            <div class="ps-card">
+              <div class="ps-card__img">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHaFyp0uKRT9Dme5IywbdNSOQi5VKAnlN_Ljztjx6fQwm3TiZYu09w8zDP95VnnJxelOey-TkUC4REgddWZ6ajJRX4q_fTnaR1-SGkBJbSMhTjDT7jNp-11H2MwGFSMWikSCMPCmLK6FF1tXVVdyX915oiJk5l6E3R2v4Am-S5iUu2g63yVZzslqXSon2He0MTC5oxYYykVUEjub1cWMqvRlOnGr1xie2IKwrXgI-aAlNg7Yu9JXqwzDz6c11AAzumBnuIp4tS3KI" alt="Motif Kaluak Limo"/>
+              </div>
+              <p class="ps-label-caps text-muted mb-1">EDISI TERBATAS</p>
+              <h3 class="ps-card__title">Motif Kaluak Limo</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-4 d-md-none">
+          <a href="#" class="ps-link">LIHAT SEMUA KOLEKSI →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CRAFTSMANSHIP SECTION ===== -->
+    <section class="ps-section">
+      <div class="container-xl">
+        <div class="text-center mb-5 mx-auto" style="max-width:600px">
+          <p class="ps-label-caps text-secondary-gold mb-3">DIBALIK LAYAR</p>
+          <h2 class="ps-headline">Proses Pembuatan</h2>
+          <hr class="ps-divider mx-auto mt-4"/>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-6 col-md ps-step">
+            <span class="ps-step__number">1</span>
+            <h4 class="ps-label-caps mb-3">PERSIAPAN BENANG</h4>
+            <p class="text-muted small">Pemilihan benang khusus, benang sutra, serta benang emas berkualitas tinggi.</p>
+          </div>
+          <div class="col-6 col-md ps-step">
+            <span class="ps-step__number">2</span>
+            <h4 class="ps-label-caps mb-3">PEWARNAAN</h4>
+            <p class="text-muted small">Pemilihan warna langsung dipilih Costumer sehingga menghasilkan Songket yang sesui dengan keinginan.</p>
+          </div>
+          <div class="col-6 col-md ps-step">
+            <span class="ps-step__number">3</span>
+            <h4 class="ps-label-caps mb-3">PENENUNAN</h4>
+            <p class="text-muted small">Proses penenunan manual dengan alat tenun bukan mesin (ATBM) yang memakan waktu berbulan-bulan.</p>
+          </div>
+          <div class="col-6 col-md ps-step">
+            <span class="ps-step__number">4</span>
+            <h4 class="ps-label-caps mb-3">KUALITAS</h4>
+            <p class="text-muted small">Kualitas diutamakan jika ada salah motif atau gumpalan benang, penenunan akan diulang kembali.</p>
+          </div>
+          <div class="col-6 col-md ps-step">
+            <span class="ps-step__number">5</span>
+            <h4 class="ps-label-caps mb-3">FINISHING</h4>
+            <p class="text-muted small">Penyempurnaan detail motif dan pembersihan akhir untuk memastikan kesempurnaan tekstur kain.<</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NEWSLETTER CTA ===== -->
+    <section class="ps-section bg-light-surface">
+      <div class="container-xl">
+        <div class="text-center mx-auto" style="max-width:680px">
+          <h2 class="ps-headline mb-3">Bergabung dalam Warisan Kami</h2>
+          <p class="ps-body-lg text-muted mb-5">Dapatkan informasi eksklusif mengenai koleksi terbatas, sejarah motif, dan undangan pameran budaya kami.</p>
+          <form class="d-flex flex-column flex-md-row gap-3" id="newsletterForm" novalidate>
+            <input class="form-control ps-input flex-grow-1" type="email" name="email" placeholder="Alamat Email Anda" aria-label="Alamat Email Anda" required />
+            <button class="ps-btn ps-btn--dark flex-shrink-0" id="subscribeBtn" type="submit">BERLANGGANAN</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="ps-footer">
+    <div class="container-xl py-5">
+      <div class="row g-5">
+        <!-- Brand -->
+        <div class="col-12 col-md-4">
+        <a class="navbar-brand ps-brand mx-auto d-flex align-items-center" href="/">
+        <img src="img/meri2.png" alt="Pandai Sikek Heritage" style="height: 80px; width: auto; object-fit: contain;"/>
+        </a>
+          <p class="text-white-50 small mb-4 lh-lg">
+            Mendedikasikan diri untuk pelestarian seni tenun Songket Minangkabau sejak generasi pertama. Kualitas adalah janji kami.
+          </p>
+          <div class="d-flex gap-3">
+            <a href="#" class="ps-footer-icon"><span class="material-symbols-outlined">public</span></a>
+            <a href="#" class="ps-footer-icon"><span class="material-symbols-outlined">photo_camera</span></a>
+            <a href="#" class="ps-footer-icon"><span class="material-symbols-outlined">share</span></a>
+          </div>
+        </div>
+        <!-- Navigation -->
+        <div class="col-6 col-md-2">
+          <h4 class="ps-label-caps text-secondary-gold mb-4">NAVIGASI</h4>
+          <ul class="list-unstyled ps-footer-links">
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">The Process</a></li>
+            <li><a href="#">Weavers</a></li>
+          </ul>
+        </div>
+        <!-- Support -->
+        <div class="col-6 col-md-2">
+          <h4 class="ps-label-caps text-secondary-gold mb-4">BANTUAN</h4>
+          <ul class="list-unstyled ps-footer-links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Shipping Info</a></li>
+          </ul>
+        </div>
+        <!-- Contact -->
+        <div class="col-12 col-md-4">
+          <h4 class="ps-label-caps text-secondary-gold mb-4">KONTAK</h4>
+          <ul class="list-unstyled ps-footer-contact">
+            <li>
+              <span class="material-symbols-outlined">location_on</span>
+              Meri Songket, Kanang, Koto Tinggi, Nagari Pandai Sikek, Tanah Datar, Sumatera Barat
+            </li>
+            <li>
+              <span class="material-symbols-outlined">mail</span>
+              info@merisongket.com
+            </li>
+            <li>
+              <span class="material-symbols-outlined">WhatsApp / Call</span>
+              +62 823 8336 7739
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="ps-footer__bottom">
+      <div class="container-xl d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <p class="ps-label-caps text-white-50 mb-0">© 2024 MERI SONGKET. CRAFTED WITH TRADITION.</p>
+        <div class="d-flex gap-4">
+          <a class="ps-label-caps text-white-50 text-decoration-none" href="#">ENG</a>
+          <a class="ps-label-caps text-white border-bottom border-white text-decoration-none" href="#">IDN</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
